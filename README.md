@@ -65,15 +65,42 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+```
+module digi(a,b,c,d,e,x,y,z);
 
- Developed by: RegisterNumber: 
+input a,b;
+
+output c,d,e,x,y,z;
+
+and(c,a,b);
+
+or(d,a,b);
+
+xor(e,a,b);
+
+nand(x,a,b);
+
+nor(y,a,b);
+
+xnor(z,a,b);
+
+endmodule
+```
+ Developed by:Yuvan M
+ RegisterNumber: 212223240188
  
 **Logic symbol & Truthtable**
+![WhatsApp Image 2024-03-14 at 15 48 16_138cbb4e](https://github.com/Yuvan291205/study-of-basic-gates/assets/138849170/87292468-e473-4907-9ec7-d1075832c179)
+![WhatsApp Image 2024-03-14 at 15 49 43_70675a3d](https://github.com/Yuvan291205/study-of-basic-gates/assets/138849170/cc0dfb88-7b08-41bd-ad35-07f8e64babb0)
 
 **RTL realization Output:** 
+![WhatsApp Image 2024-03-14 at 15 49 14_cd300739](https://github.com/Yuvan291205/study-of-basic-gates/assets/138849170/aa2306d0-bf8f-4a5b-9a27-13cccc0397d9)
+
+
 
 **RTL**
+![WhatsApp Image 2024-03-14 at 15 49 14_4de826aa](https://github.com/Yuvan291205/study-of-basic-gates/assets/138849170/5f9b59f8-f9ed-4e3b-822e-275f48f68923))
 
 **Result:**
-
+output is verified
 
