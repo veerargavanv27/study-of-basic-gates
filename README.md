@@ -86,8 +86,8 @@ xnor(z,a,b);
 
 endmodule
 ```
- Developed by:Yuvan M
- RegisterNumber: 212223240188
+ Developed by:VEERARAGAVAN V
+ RegisterNumber: 212223230237
  
 **Logic symbol & Truthtable**
 ![WhatsApp Image 2024-03-14 at 15 48 16_138cbb4e](https://github.com/Yuvan291205/study-of-basic-gates/assets/138849170/87292468-e473-4907-9ec7-d1075832c179)
